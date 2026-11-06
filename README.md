@@ -6,7 +6,7 @@ An interactive demo of minimax with alpha-beta pruning. You play red against a y
 
 Play it in your browser, no download needed:
 
-**https://parvninama.github.io/connect4-alpha-beta/**
+**https://parvninama.github.io/alpha-beta-pruning-connect-4/**
 
 The site is hosted with GitHub Pages and updates automatically whenever the `main` branch changes.
 
