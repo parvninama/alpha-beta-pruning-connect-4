@@ -2,10 +2,21 @@
 
 An interactive demo of minimax with alpha-beta pruning. You play red against a yellow AI that looks a fixed number of moves ahead. After each AI move, the page shows what it searched, which branches it skipped, and how that compares with plain minimax.
 
-## Running it
+## Live demo
 
-1. Save `alpha_beta_connect4.html` anywhere on your computer.
-2. Open it in any modern browser (Chrome, Firefox, Safari, Edge).
+Play it in your browser, no download needed:
+
+**https://parvninama.github.io/connect4-alpha-beta/**
+
+The site is hosted with GitHub Pages and updates automatically whenever the `main` branch changes.
+
+## Running it locally
+
+1. Download `index.html` from the repository (or clone it):
+   ```bash
+   git clone https://github.com/parvninama/connect4-alpha-beta.git
+   ```
+2. Open `index.html` in any modern browser (Chrome, Firefox, Safari, Edge).
 
 There is nothing to install and no internet connection is needed. Everything is in one file.
 
@@ -131,5 +142,5 @@ How much alpha-beta saves depends on the order moves are tried. If the best move
 
 ## Files
 
-- `alpha_beta_connect4.html`: the interactive demo (HTML, CSS and JavaScript in one file).
+- `index.html`: the interactive demo (HTML, CSS and JavaScript in one file), served as the live site.
 - `README.md`: this file.
